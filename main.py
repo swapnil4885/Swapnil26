@@ -1,3 +1,5 @@
+from keep_alive import keep_alive
+keep_alive()
 import telebot
 import gspread
 from config import BOT_TOKEN, SHEET_ID, SHEET_NAME
